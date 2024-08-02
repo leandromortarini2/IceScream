@@ -57,8 +57,8 @@ function Example(args: IExampleProps) {
         onExited={() => setAnimating(false)}
         id={item.src}
       >
-        <div className="  ">
-          <img src={item.src} className=" h-[300px]" />
+        <div className="w-full flex justify-center items-center ">
+          <img src={item.src} className="h-full" />
         </div>
       </CarouselItem>
     );
