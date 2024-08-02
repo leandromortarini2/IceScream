@@ -1,4 +1,5 @@
 import React from "react";
+import { ImgHome } from "../../Components/ImgHome/ImgHome";
 
 export const Home: React.FC = () => {
   return (
@@ -11,8 +12,10 @@ export const Home: React.FC = () => {
           className="w-full  "
         />
       </div>
-      <div className="w-full h-80  md:h-[300px] lg:min-h-[450px] bg-red-500 flex flex-col md:flex-row">
-        <div className="w-full md:w-1/2 h-full bg-white"></div>
+      <div className="w-full h-80  md:h-[300px] lg:min-h-[450px]  flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2 h-full flex justify-center items-center">
+        <ImgHome/>
+          </div>
         <div className="w-full md:w-1/2 h-full bg-black"></div>
       </div>
     </div>
