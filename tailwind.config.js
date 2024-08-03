@@ -8,6 +8,9 @@ export default {
         Background:"#fff1e6",
         violeta:"#9381ff",
         azul:"#5aa9e6"
+      },
+      fontFamily:{
+        cursiva: '"Pacifico", cursive',
       }
     },
   },
