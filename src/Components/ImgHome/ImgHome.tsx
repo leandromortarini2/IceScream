@@ -1,4 +1,5 @@
 import React from "react";
+import './ImgHome.css'
 export const ImgHome: React.FC = () => {
   return (
     <>
@@ -6,7 +7,7 @@ export const ImgHome: React.FC = () => {
         <img
           src="https://i.ibb.co/FDHFSvZ/Cuadrado-Photoroom.png"
           alt=""
-          className="w-full h-full"
+          className="w-full h-full shadowImg"
         />
       </div>
     </>

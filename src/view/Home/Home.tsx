@@ -28,7 +28,6 @@ export const Home: React.FC = () => {
           <InfoHome />
         </div>
       </div>
-      <div className="w-full min-h-screen bg-azul"></div>
     </div>
   );
 };
