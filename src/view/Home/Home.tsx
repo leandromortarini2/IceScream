@@ -4,7 +4,7 @@ import { InfoHome } from "../../Components/InfoHome/InfoHome";
 
 export const Home: React.FC = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center bg-violeta">
+    <div className="w-full min-h-screen flex flex-col items-center bg-durazno">
       <div className="w-full h-9 bg-white md:hidden"></div>
       <div
         id="cajaA"
@@ -28,7 +28,6 @@ export const Home: React.FC = () => {
           <InfoHome />
         </div>
       </div>
-      <div className="w-full min-h-screen bg-azul"></div>
     </div>
   );
 };
