@@ -16,7 +16,7 @@ export const Home: React.FC = () => {
         <div className="w-full md:w-1/2 h-full flex justify-center items-center">
         <ImgHome/>
           </div>
-        <div className="w-full md:w-1/2 h-full bg-black"></div>
+        <div className=" w-full md:w-1/2 h-full bg-black"></div>
       </div>
     </div>
   );
