@@ -5,8 +5,11 @@ import { InfoHome } from "../../Components/InfoHome/InfoHome";
 export const Home: React.FC = () => {
   return (
     <div className="w-full min-h-screen flex flex-col items-center bg-violeta">
-      <div className="w-full h-9 bg-white md:hidden "></div>
-      <div className="w-full h-40 md:h-64 overflow-hidden flex  justify-center ">
+      <div className="w-full h-9 bg-white md:hidden"></div>
+      <div
+        id="cajaA"
+        className="w-full h-40 md:h-64 overflow-hidden flex justify-center"
+      >
         <img
           src="https://i.ibb.co/QF77dsK/Diseno-sin-titulo-4.png"
           alt=""
@@ -14,14 +17,18 @@ export const Home: React.FC = () => {
         />
       </div>
 
-      <div className="w-full  flex flex-col md:flex-row absolute top-[120px] md:static">
-        <div className="w-full md:h-full md:w-1/2 flex  justify-center md:justify-end items-center">
+      <div
+        id="cajaB"
+        className="relative w-full flex flex-col md:flex-row -mt-10"
+      >
+        <div className="w-full md:h-full md:w-1/2 flex justify-center md:justify-end items-center lg:relative lg:-mt-5 xl:-mt-14">
           <ImgHome />
         </div>
-        <div className="w-full md:w-1/2 h-full ">
+        <div className="w-full md:w-1/2 h-full">
           <InfoHome />
         </div>
       </div>
+      <div className="w-full min-h-screen bg-azul"></div>
     </div>
   );
 };
