@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Carousel, CarouselItem } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { ICarouselImage, IExampleProps } from "../../Interfaces/ICarrusel";
+import { ICarouselImage, IExampleProps } from "../../../Interfaces/ICarrusel";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const items: ICarouselImage[] = [
@@ -28,7 +28,7 @@ const items: ICarouselImage[] = [
   },
 ];
 
-function Example(args: IExampleProps) {
+function WafflesCarrusel(args: IExampleProps) {
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [animating, setAnimating] = useState<boolean>(false);
 
@@ -77,4 +77,4 @@ function Example(args: IExampleProps) {
   );
 }
 
-export default Example;
+export default WafflesCarrusel;

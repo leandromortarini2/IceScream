@@ -13,19 +13,19 @@ function NavBar(): React.ReactElement {
         {/**Navbar 768px  */}
         <div className="md:flex hidden">
           <ul className="flex font-medium text-text">
-            <li className="m-3 text-violeta hover:text-violet-800 transition-all duration-300">
+            <li className="m-3 text-Primario hover:text-violet-800 transition-all duration-300">
               <a href="" className="flex flex-row justify-center">
                 <ImHome size={25} className="mx-1" />
                 <p>Inicio</p>
               </a>
             </li>
-            <li className="m-3 text-violeta hover:text-violet-800 transition-all duration-300">
+            <li className="m-3 text-Primario hover:text-violet-800 transition-all duration-300">
               <a href="" className="flex flex-row justify-center">
                 <FaIceCream size={25} className="mx-1" />
                 <p>Productos</p>
               </a>
             </li>
-            <li className="m-3 text-violeta hover:text-violet-800 transition-all duration-300">
+            <li className="m-3 text-Primario hover:text-violet-800 transition-all duration-300">
               <a href="" className="flex flex-row justify-center">
                 <RiContactsBook3Fill size={25} className="mx-1" />
                 <p>Contactos</p>
@@ -34,7 +34,7 @@ function NavBar(): React.ReactElement {
           </ul>
         </div>
 
-        <div className="md:flex items-center hidden text-text text-violeta hover:text-violet-800 hover:cursor-pointer">
+        <div className="md:flex items-center hidden text-text text-Primario hover:text-violet-800 hover:cursor-pointer">
           <a className="flex flex-row justify-center m-3 transition-all duration-300">
             <FaShoppingCart size={25} className="mx-1" />
           </a>
@@ -45,22 +45,22 @@ function NavBar(): React.ReactElement {
         {/* <ResponsiveNavbar isOpen={open}/> */}
         <div className="flex md:hidden">
           <ul className="flex font-medium text-text">
-            <li className="p-2 text-violeta hover:text-violet-800 transition-all duration-300">
+            <li className="p-2 text-Primario hover:text-violet-800 transition-all duration-300">
               <a href="" className="flex flex-row justify-center">
                 <ImHome size={25} className="mx-1" />
               </a>
             </li>
-            <li className="p-2 text-violeta hover:text-violet-800 transition-all duration-300">
+            <li className="p-2 text-Primario hover:text-violet-800 transition-all duration-300">
               <a href="" className="flex flex-row justify-center">
                 <FaIceCream size={25} className="mx-1" />
               </a>
             </li>
-            <li className="p-2 text-violeta hover:text-violet-800 transition-all duration-300">
+            <li className="p-2 text-Primario hover:text-violet-800 transition-all duration-300">
               <a href="" className="flex flex-row justify-center">
                 <RiContactsBook3Fill size={25} className="mx-1" />
               </a>
             </li>
-            <li className="p-2 text-violeta hover:text-violet-800 transition-all duration-300">
+            <li className="p-2 text-Primario hover:text-violet-800 transition-all duration-300">
               <a className="flex flex-row justify-center">
                 <FaShoppingCart size={25} className="mx-1" />
               </a>
