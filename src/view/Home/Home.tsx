@@ -13,6 +13,7 @@ export const Home: React.FC = () => {
           className="w-full"
         />
       </div>
+
       <div className="w-full  flex flex-col md:flex-row  ">
         <div className="w-full md:w-1/2 h-full flex  justify-center md:justify-end items-center">
           <ImgHome />
