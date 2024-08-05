@@ -6,7 +6,7 @@ export const InfoHome: React.FC = () => {
       <h1 className="text-white font-cursiva text-3xl md:text-[60px] lg:text-[80px] xl:text-[120px]">
         IceCream
       </h1>
-      <h2 className="text-white font-extrabold text-xl md:text-2xl lg:text-3xl mt-10 ">
+      <h2 className="text-white font-extrabold text-xl md:text-2xl lg:text-3xl md:mt-5 lg:mt-10  ">
         La heladeria de tu barrio
       </h2>
       <div className="w-full  md:h-40  flex flex-col items-center md:items-start mt-5 md:mt-10 ">
