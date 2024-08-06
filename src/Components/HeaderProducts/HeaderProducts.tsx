@@ -27,13 +27,13 @@ export const HeaderProducts: React.FC = () => {
           <div
             key={position}
             className={`w-1/6 md:h-32 lg:h-36 border-4 ${
-              activePosition === position ? "bg-durazno" : "bg-white"
+              activePosition === position ? "bg-Secundario" : "bg-white"
             } border-white flex justify-center items-center`}
             onClick={() => setActivePosition(position)}
           >
             <Icon
-              className={`text-3xl ${
-                activePosition === position ? "text-white" : "text-Primario"
+              className={`lg:text-3xl xl:text-5xl ${
+                activePosition === position ? "text-Primario" : "text-Primario"
               }`}
             />
           </div>
