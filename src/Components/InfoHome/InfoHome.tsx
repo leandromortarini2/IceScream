@@ -3,23 +3,23 @@ import React from "react";
 export const InfoHome: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col items-center md:items-start justify-center  ">
-      <h1 className="text-white font-cursiva text-3xl md:text-[60px] lg:text-[80px] xl:text-[120px]">
+      <h1 className="text-[#EF5A6F] font-cursiva text-3xl md:text-[60px] lg:text-[80px] xl:text-[120px]">
         IceCream
       </h1>
-      <h2 className="text-white font-extrabold text-xl md:text-2xl lg:text-3xl md:mt-5 lg:mt-10  ">
+      <h2 className="text-[#EF5A6F] font-extrabold text-xl md:text-2xl lg:text-3xl md:mt-5 lg:mt-10  ">
         La heladeria de tu barrio
       </h2>
-      <div className="w-full  md:h-40  flex flex-col items-center md:items-start mt-5 md:mt-10 ">
-        <p className="text-pink-700 font-bold text-lg md:text-2xl lg:text-3xl">
+      <div className="w-full  md:h-52  flex flex-col items-center md:items-start justify-evenly mt-5 md:mt-10 ">
+        <p className="text-white font-bold text-lg md:text-2xl lg:text-3xl">
           Repartos
         </p>
-        <p className="text-blue-800 font-bold text-base md:text-lg lg:text-2xl">
+        <p className="text-white font-bold text-base md:text-lg lg:text-2xl">
           en zona Villa Albertina
         </p>
-        <p className="text-blue-800  font-bold text-base lg:text-xl">
+        <p className="text-white  font-bold text-base lg:text-xl">
           Lomas de Zamora
         </p>
-        <p className="text-blue-800 e font-bold text-base lg:text-lg text-center">
+        <p className="text-white font-bold text-base lg:text-lg text-center">
           Helados - Postres - Pochoclos y Mucho Mas
         </p>
       </div>

@@ -3,11 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
-      colors:{
-        Terciario:"#FD9594",
-        Background:"#fff1e6",
-        Primario:"#9381ff",
-        Secundario:"#5aa9e6"
+      colors: {
+        Terciario: "#FD9594",
+        Background: "#fff1e6",
+        Primario: "#EF5A6F",
+        Secundario: "#5aa9e6",
       },
       fontFamily: {
         cursiva: '"Pacifico", cursive',
