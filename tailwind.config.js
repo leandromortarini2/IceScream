@@ -9,7 +9,7 @@ export default {
         Primario:"#9381ff",
         Secundario:"#5aa9e6"
       },
-      fontFamily:{
+      fontFamily: {
         cursiva: '"Pacifico", cursive',
       },
       keyframes: {
