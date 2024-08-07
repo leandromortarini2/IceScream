@@ -10,9 +10,9 @@ export const Cart: React.FC = () => {
   };
   return (
     <>
-      <div className="md:flex items-center text-Primario text-text lg:text-xl hover:text-violet-800 hover:cursor-pointer">
+      <div className="md:flex items-center text-Primario text-text lg:text-xl hover:text-PrimarioOscuro hover:scale-110 duration-1000 hover:cursor-pointer">
         <button
-          className="flex flex-row justify-center m-3 transition-all duration-300"
+          className="flex flex-row justify-center m-3 transition-all"
           onClick={handleOnClick}
         >
           <FaShoppingCart size={25} className="mx-1 lg:size-8" />

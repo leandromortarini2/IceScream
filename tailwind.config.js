@@ -7,6 +7,7 @@ export default {
         Terciario: "#FD9594",
         Background: "#fff1e6",
         Primario: "#EF5A6F",
+        PrimarioOscuro: "#c74e60",
         Secundario: "#F9D689",
       },
       fontFamily: {
