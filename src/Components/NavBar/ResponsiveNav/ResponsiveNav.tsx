@@ -2,6 +2,7 @@ import React from 'react'
 import { FaIceCream, FaShoppingCart } from 'react-icons/fa'
 import { ImHome } from 'react-icons/im'
 import { RiContactsBook3Fill } from 'react-icons/ri'
+import { Cart } from '../../Cart/Cart'
 
 function ResponsiveNav():React.ReactElement {
   return (
@@ -22,10 +23,13 @@ function ResponsiveNav():React.ReactElement {
                 <RiContactsBook3Fill size={25} className="mx-1" />
               </a>
             </li>
-            <li className="p-2 text-Primario hover:text-violet-800 transition-all duration-300">
+            {/* <li className="p-2 text-Primario hover:text-violet-800 transition-all duration-300">
               <a className="flex flex-row justify-center">
                 <FaShoppingCart size={25} className="mx-1" />
               </a>
+            </li> */}
+            <li>
+              <Cart />
             </li>
           </ul>
         </div>

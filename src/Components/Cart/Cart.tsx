@@ -9,7 +9,7 @@ export const Cart: React.FC = () => {
   };
   return (
     <>
-      <div className="md:flex items-center hidden text-Primario text-text lg:text-xl hover:text-violet-800 hover:cursor-pointer">
+      <div className="md:flex items-center text-Primario text-text lg:text-xl hover:text-violet-800 hover:cursor-pointer">
         <button
           className="flex flex-row justify-center m-3 transition-all duration-300"
           onClick={handleOnClick}
@@ -19,7 +19,7 @@ export const Cart: React.FC = () => {
       </div>
 
       {button && (
-        <div className="absolute top-full right-0 w-full  z-40">
+        <div className="top-full right-0 z-40 absolute w-full">
           <ShoppingCart />
         </div>
       )}
