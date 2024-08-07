@@ -20,9 +20,9 @@ export const HeaderProducts: React.FC = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-[#f4f3ec]">
+    <div className="bg-[#f4f3ec] w-full min-h-screen" id="products" >
       {/* Cabecera products */}
-      <div className="hidden w-full h-40 md:flex justify-evenly items-center">
+      <div className="md:flex justify-evenly items-center hidden w-full h-40">
         {icons.map(({ component: Icon, position }) => (
           <div
             key={position}
@@ -43,7 +43,7 @@ export const HeaderProducts: React.FC = () => {
       <HeaderProductsMobile />
 
       {/* Container de productos */}
-      <div className="w-full min md:h-32 lg:h-[510px] bg-white"></div>
+      <div className="bg-white w-full md:h-32 lg:h-[510px] min"></div>
     </div>
   );
 };

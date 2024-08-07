@@ -3,11 +3,11 @@ import { HeaderProducts } from "../../Components/HeaderProducts/HeaderProducts";
 
 export const Products: React.FC = () => {
   return (
-    <div className="w-full min min-h-screen bg-[#f4f3ec]">
+    <div className="bg-[#f4f3ec] w-full min-h-screen min" id="products">
       {/* Cabecera products */}
       <HeaderProducts />
       {/* Container de productos */}
-      <div className="w-full min md:h-32-lg:h-[510px] bg-gray-400"></div>
+      <div className="bg-gray-400 w-full md:h-32-lg:h-[510px] min"></div>
     </div>
   );
 };

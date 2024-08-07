@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { FaIceCream, FaShoppingCart } from "react-icons/fa";
-import { ImHome } from "react-icons/im";
-import { RiContactsBook3Fill } from "react-icons/ri";
 import ResponsiveNav from "./ResponsiveNav/ResponsiveNav";
 import ProductsPop from "../ProductsPop/ProductsPop";
 import logo from "../../assets/logo-Photoroom.png"
 import { Cart } from "../Cart/Cart";
+import { Link } from "react-router-dom";
 
 function NavBar(): React.ReactElement {
 
@@ -43,23 +41,23 @@ function NavBar(): React.ReactElement {
         {/**Navbar 768px  */}
         <div className="md:flex hidden">
           <ul className="flex font-medium text-text">
-            <li className="m-3 text-Primario hover:text-violet-800 transition-all duration-300">
-              <a href="" className="flex flex-row justify-center lg:text-xl">
+            <li className="m-3 text-Primario hover:text-PrimarioOscuro transition-all duration-300">
+              <Link to="/" className="flex flex-row justify-center lg:text-xl duration-1000 hover:scale-110">
                 {/* <ImHome size={25} className="mx-1 lg:size-8" /> */}
                 <p>Inicio</p>
-              </a>
+              </Link>
             </li>
             
-            <li className="m-3 text-Primario hover:text-violet-800 transition-all duration-300 group"
+            <li className="m-3 text-Primario hover:text-PrimarioOscuro transition-all duration-300 group"
             
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             >
 
-              <a href="" className="flex flex-row justify-center lg:text-xl">
+              <p className="flex flex-row hover:scale-110 justify-center lg:text-xl duration-1000 hover:cursor-default">
                 {/* <FaIceCream size={25} className="mx-1 lg:size-8" /> */}
                 <p>Productos</p>
-              </a>
+              </p>
 
               <div className={`group-hover:block bg-black min-w-screen min-h-screen fixed hidden group-hover ${
             isHovered ? 'animate-fadeIn' : 'animate-fadeOut'}`}>
@@ -73,16 +71,16 @@ function NavBar(): React.ReactElement {
               </div>
             </li>
 
-            <li className="m-3 text-Primario hover:text-violet-800 transition-all duration-300">
-              <a href="" className="flex flex-row justify-center lg:text-xl">
+            <li className="m-3 text-Primario hover:text-PrimarioOscuro transition-all duration-300">
+              <Link to="/contacto" className="flex flex-row justify-center lg:text-xl duration-1000 hover:scale-110">
                 {/* <RiContactsBook3Fill size={25} className="mx-1 lg:size-8" /> */}
                 <p>Contactos</p>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
 
-        <div className="md:inline sm:hidden">
+        <div className="md:inline hidden">
           <Cart/>
 
         </div>
