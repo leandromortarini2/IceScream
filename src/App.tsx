@@ -5,11 +5,13 @@ import { Products } from "./view/Products/Products";
 
 function App() {
   return (
-    <div className="">
+    <>
+      <header></header>
       <NavBar />
       <Home />
+
       <Products />
-    </div>
+    </>
   );
 }
 
