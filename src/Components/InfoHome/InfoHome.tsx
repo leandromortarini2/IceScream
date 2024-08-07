@@ -3,10 +3,10 @@ import React from "react";
 export const InfoHome: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col items-center md:items-start justify-center  ">
-      <h1 className="text-[#EF5A6F] font-cursiva text-3xl md:text-[60px] lg:text-[80px] xl:text-[120px]">
+      <h1 className="text-PrimarioOscuro font-cursiva text-3xl md:text-[60px] lg:text-[80px] xl:text-[120px]">
         IceCream
       </h1>
-      <h2 className="text-[#EF5A6F] font-extrabold text-xl md:text-2xl lg:text-3xl md:mt-5 lg:mt-10  ">
+      <h2 className="text-PrimarioOscuro font-extrabold text-xl md:text-2xl lg:text-3xl md:mt-5 lg:mt-10  ">
         La heladeria de tu barrio
       </h2>
       <div className="w-full  md:h-52  flex flex-col items-center md:items-start justify-evenly mt-5 md:mt-10 ">
@@ -23,7 +23,7 @@ export const InfoHome: React.FC = () => {
           Helados - Postres - Pochoclos y Mucho Mas
         </p>
       </div>
-      <button className="w-40 h-10 bg-white p-1 rounded-xl text-violet font-bold text-Primario hover:scale-110 duration-1000 hover:bg-violet-500 hover:text-white mt-2 mb-5">
+      <button className="w-40 h-10 bg-white p-1 rounded-xl text-violet font-bold text-PrimarioOscuro hover:scale-110 duration-1000 hover:bg-Secundario hover:text-PrimarioOscuro mt-2 mb-5">
         Realiza tu pedido
       </button>
     </div>
