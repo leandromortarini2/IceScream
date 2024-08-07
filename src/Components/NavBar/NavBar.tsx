@@ -35,33 +35,35 @@ function NavBar(): React.ReactElement {
         isScrolled ? "shadow-lg" : null
       }`}
     >
-      <div className="flex flex-wrap justify-between items-center px-2 md:px-6 py-4 md:py-2">
-        <SignedOut>
-          <SignInButton>
-            <img src={`${logo}`} alt="Logo" className="h-12 cursor-pointer" />
-          </SignInButton>
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
+      <div className="flex flex-wrap justify-between items-center ">
+        <div className="w-1/4 flex justify-center items-center">
+          <SignedOut>
+            <SignInButton>
+              <img src={`${logo}`} alt="Logo" className="h-12 cursor-pointer" />
+            </SignInButton>
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+        </div>
         {/**Navbar 768px  */}
-        <div className="md:flex hidden">
-          <ul className="flex font-medium text-text">
-            <li className="m-3 text-Primario hover:text-PrimarioOscuro transition-all duration-300">
+        <div className="w-1/2 md:flex justify-center hidden ">
+          <ul className="w-full flex justify-evenly font-medium text-text ">
+            <li className="m-3 text-Primario font-bold hover:text-PrimarioOscuro transition-all duration-300">
               <Link
                 to="/"
-                className="flex flex-row justify-center lg:text-xl duration-1000 hover:scale-110"
+                className="flex flex-row justify-center lg:text-2xl duration-1000 hover:scale-110 "
               >
-                <p>Inicio</p>
+                <p className="">Inicio</p>
               </Link>
             </li>
 
             <li
-              className="m-3 text-Primario hover:text-PrimarioOscuro transition-all duration-300 group"
+              className="m-3 text-Primario hover:text-PrimarioOscuro transition-all duration-300 font-bold group"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <p className="flex flex-row hover:scale-110 justify-center lg:text-xl duration-1000 hover:cursor-default">
+              <p className="flex flex-row hover:scale-110 justify-center lg:text-2xl duration-1000 hover:cursor-default">
                 Productos
               </p>
 
@@ -79,7 +81,7 @@ function NavBar(): React.ReactElement {
             <li className="m-3 text-Primario hover:text-PrimarioOscuro transition-all duration-300">
               <Link
                 to="/contacto"
-                className="flex flex-row justify-center lg:text-xl duration-1000 hover:scale-110"
+                className="flex flex-row justify-center lg:text-2xl duration-1000 hover:scale-110 font-bold"
               >
                 <p>Contactos</p>
               </Link>
@@ -87,7 +89,7 @@ function NavBar(): React.ReactElement {
           </ul>
         </div>
 
-        <div className="md:inline hidden">
+        <div className="md:flex w-1/4  justify-center items-cente hidden">
           <Cart />
         </div>
 
