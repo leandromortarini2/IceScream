@@ -13,17 +13,17 @@ export const InfoHome: React.FC = () => {
         <p className="text-white font-bold text-lg md:text-2xl lg:text-3xl">
           Repartos
         </p>
-        <p className="text-white font-bold text-base md:text-lg lg:text-2xl">
-          en zona Villa Albertina
+        <p className="text-gray-800 font-bold text-base md:text-lg lg:text-2xl capitalize">
+          zona Villa Albertina
         </p>
-        <p className="text-white  font-bold text-base lg:text-xl">
+        <p className="text-gray-800  font-bold text-base lg:text-xl">
           Lomas de Zamora
         </p>
-        <p className="text-white font-bold text-base lg:text-lg text-center">
+        <p className="text-gray-800 font-bold text-base lg:text-lg text-center">
           Helados - Postres - Pochoclos y Mucho Mas
         </p>
       </div>
-      <button className="w-40 h-10 bg-white p-1 rounded-xl text-violet font-bold text-PrimarioOscuro hover:scale-110 duration-1000 hover:bg-Secundario hover:text-PrimarioOscuro mt-2 mb-5">
+      <button className="w-40 h-10 bg-white p-1 rounded-xl text-violet font-bold shadow-lg shadow-PrimarioOscuro text-PrimarioOscuro hover:scale-110 duration-1000 hover:bg-Secundario hover:text-PrimarioOscuro mt-2 mb-5">
         Realiza tu pedido
       </button>
     </div>
