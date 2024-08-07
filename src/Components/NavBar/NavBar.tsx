@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { FaIceCream, FaShoppingCart } from "react-icons/fa";
-import { ImHome } from "react-icons/im";
-import { RiContactsBook3Fill } from "react-icons/ri";
+// import { FaIceCream, FaShoppingCart } from "react-icons/fa";
+// import { ImHome } from "react-icons/im";
+// import { RiContactsBook3Fill } from "react-icons/ri";
 import ResponsiveNav from "./ResponsiveNav/ResponsiveNav";
 import ProductsPop from "../ProductsPop/ProductsPop";
 import logo from "../../assets/logo-Photoroom.png"
@@ -37,7 +37,7 @@ function NavBar(): React.ReactElement {
           </span>
           <img src={`${logo}`} alt="Logo" className="h-12" />
           <span className="md:inline hidden">
-          Scream
+          Cream
           </span>
         </a>
         {/**Navbar 768px  */}
@@ -82,7 +82,7 @@ function NavBar(): React.ReactElement {
           </ul>
         </div>
 
-        <div className="md:inline sm:hidden">
+        <div className=" hidden md:inline">
           <Cart/>
 
         </div>

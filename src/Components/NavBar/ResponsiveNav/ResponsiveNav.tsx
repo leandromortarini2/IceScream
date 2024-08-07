@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaIceCream, FaShoppingCart } from 'react-icons/fa'
+import { FaIceCream } from 'react-icons/fa'
 import { ImHome } from 'react-icons/im'
 import { RiContactsBook3Fill } from 'react-icons/ri'
 import { Cart } from '../../Cart/Cart'

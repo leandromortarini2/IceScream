@@ -4,6 +4,7 @@ export interface IProducts {
     flavors: string[],
     dip: string[],
     topping: string[],
+    price: number
 }
 
 export const products: IProducts[] = [
@@ -22,6 +23,21 @@ export const products: IProducts[] = [
             'mogul',
             'roclets'
         ],
-
+        price: 3000,
+    },
+    {
+        id: 'jaja8262sjaa',
+        name: 'Pote 1 kg',
+        flavors: [
+            'chocolate',
+            'frutilla',
+        ],
+        dip: [
+            'frutilla'
+        ],
+        topping: [
+            'chispitas'
+        ],
+        price: 7000,
     }
 ]
