@@ -6,20 +6,21 @@ import Contact from "./view/Contacts/Contact";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
-
-
-  
   return (
-    <div >
+    <div className="">
       <NavBar />
-        <Routes>
-          <Route path="/" element={<>
-            <Home/> 
-            <Products /> 
-          </>}>
-          </Route>
-          <Route path="/contacto" element={<Contact/>}></Route>
-        </Routes>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+              <Products />
+            </>
+          }
+        ></Route>
+        <Route path="/contacto" element={<Contact />}></Route>
+      </Routes>
       {/* <Home /> */}
     </div>
   );
