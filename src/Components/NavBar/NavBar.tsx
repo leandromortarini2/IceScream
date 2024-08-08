@@ -39,7 +39,11 @@ function NavBar(): React.ReactElement {
         <div className="w-1/4 flex justify-center items-center">
           <SignedOut>
             <SignInButton>
-              <img src={`${logo}`} alt="Logo" className="h-12 cursor-pointer" />
+              <img
+                src={`${logo}`}
+                alt="Logo"
+                className="h-14  cursor-pointer"
+              />
             </SignInButton>
           </SignedOut>
           <SignedIn>

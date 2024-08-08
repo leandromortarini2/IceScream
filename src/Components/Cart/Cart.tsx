@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { ShoppingCart } from "../ShoppingCart/ShoppingCart";
 import { FaShoppingCart } from "react-icons/fa";
+import { ShoppingCart } from "./ShoppingCart/ShoppingCart";
 
 export const Cart: React.FC = () => {
   const [button, setButton] = useState<boolean>(false);
-  
+
   const handleOnClick = () => {
     setButton(!button);
   };
