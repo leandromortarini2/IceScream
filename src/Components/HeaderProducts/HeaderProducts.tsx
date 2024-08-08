@@ -20,7 +20,7 @@ export const HeaderProducts: React.FC = () => {
   ];
 
   return (
-    <div className="bg-[#f4f3ec] w-full min-h-screen" id="products" >
+    <div className="bg-[#f4f3ec] w-full min-h-screen" id="products">
       {/* Cabecera products */}
       <div className="md:flex justify-evenly items-center hidden w-full h-40">
         {icons.map(({ component: Icon, position }) => (
