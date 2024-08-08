@@ -39,5 +39,47 @@ export const products: IProducts[] = [
             'chispitas'
         ],
         price: 7000,
-    }
+    },
+    {
+        id: 'jaja8262sj88383aa',
+        name: 'milkshake',
+        flavors: [
+            'bananita dolca'
+        ],
+        dip: [
+            'frutilla'
+        ],
+        topping: [
+            'chispitas'
+        ],
+        price: 7000,
+    },
+    {
+        id: 'jaja822sj88383aa',
+        name: 'milkshake',
+        flavors: [
+            'bananita dolca'
+        ],
+        dip: [
+            'frutilla'
+        ],
+        topping: [
+            'chispitas'
+        ],
+        price: 7000,
+    },
+    {
+        id: 'jaja8262sj8833aa',
+        name: 'milkshake',
+        flavors: [
+            'bananita dolca'
+        ],
+        dip: [
+            'frutilla'
+        ],
+        topping: [
+            'chispitas'
+        ],
+        price: 7000,
+    },
 ]
