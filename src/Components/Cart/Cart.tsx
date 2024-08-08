@@ -4,6 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 export const Cart: React.FC = () => {
   const [button, setButton] = useState<boolean>(false);
+  
   const handleOnClick = () => {
     setButton(!button);
   };
