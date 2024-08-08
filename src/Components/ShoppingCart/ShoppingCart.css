@@ -9,7 +9,7 @@
 /* Archivo ShoppingCart.css */
 .cart-scrollbar {
     scrollbar-width: thin;
-    scrollbar-color: #d7d7d7 #f0f0f0;
+    scrollbar-color: #1e293b #f0f0f0;
 }
 
 .cart-scrollbar::-webkit-scrollbar {
